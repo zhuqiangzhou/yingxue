@@ -1,0 +1,11 @@
+package com.zqz;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AdminCategoryApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(AdminCategoryApplication.class, args);
+    }
+}
