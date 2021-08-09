@@ -7,3 +7,12 @@ spring:
     nacos:
       server-addr: 10.15.0.3:8848
 
+    gateway:
+      routes: #用来配置路由规则
+      #admin routers
+        - id: admin_routers
+          uri: lb://API-ADMINS
+          predicates:
+            - Path: /admin/**
+
+
