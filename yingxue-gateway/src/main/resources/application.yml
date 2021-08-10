@@ -5,7 +5,7 @@ spring:
     name: API-GATEWAY
   cloud:
     nacos:
-      server-addr: 10.15.0.3:8848
+      server-addr: 127.0.0.1:8848
 
     gateway:
       routes: #用来配置路由规则

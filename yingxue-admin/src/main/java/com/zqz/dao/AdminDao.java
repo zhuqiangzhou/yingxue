@@ -1,6 +1,7 @@
 package com.zqz.dao;
 
 import com.zqz.entity.Admin;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -11,6 +12,7 @@ import java.util.List;
  * @author makejava
  * @since 2021-08-09 22:31:50
  */
+@Mapper
 public interface AdminDao {
 
     /**
